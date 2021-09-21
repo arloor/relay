@@ -35,8 +35,6 @@ async fn main() -> io::Result<()> {
 
             remote_handler.await;
             local_handler.abort();
-            // tokio::join!(local_handler,remote_handler);
-
         });
     }
 }

@@ -180,7 +180,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-redis-demo"
+name = "relay"
 version = "0.1.0"
 dependencies = [
  "tokio",
